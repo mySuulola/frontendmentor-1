@@ -1,0 +1,158 @@
+body{
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5em;
+}
+
+#mobile{
+    width: 600px;
+    height: auto;
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: hsla(0, 7%, 97%, 0.507);
+
+}
+
+#first-section {
+    background: url('../images/bg-hero-mobile.svg');
+    padding: 30px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.header{
+    width: 90%;
+    padding: 1vh 5vw 7vh 5vw; 
+    display:flex;
+    justify-content: space-between;
+}
+.section-text{
+    width: 50%;
+    
+}
+
+#btn-header{
+    border-radius: 20px;
+    border: 0.1 solid black;
+    padding: 0 10px;
+    background-color: white;
+    padding: 15px;
+}
+.started-btn{
+   margin: 30px 0;
+   margin-left: 60px;
+   background-color:rgb(252, 1, 197);
+   padding: 30px 20px;
+   border-radius: 50px;
+   color: white;
+   font-size: 21px;
+}
+#text{    
+    width: 300px;
+    text-align: center;
+}
+
+.illustration{
+    width: 100%;
+}
+
+#second-section{
+    padding-top: 100px;
+    padding-bottom: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: red; */
+}
+.group{
+    width: 85%;
+    border-radius: 30px;
+    margin: 20px 0;
+    box-shadow: 2px 2px 5px 2px rgb(218, 223, 218);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0;
+}
+.img-text{
+    width: 70%;
+    
+}
+.text-img{
+    width: 80%;
+    text-align: center;
+}
+#interface{
+    box-shadow: 2px 2px 5px 2px rgb(222, 231, 222);
+    border-radius: 30px;
+    width: 560px;
+    margin-left: 20px;
+    padding: 30px 0; 
+    position: absolute;
+    bottom: -2920px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 10;
+    background-color: white;
+
+}
+
+#interface h1{
+    font-size: 30px;
+}
+
+#interface button{
+    font-size: 30px;
+    margin: 30px 0;
+   background-color:rgb(252, 1, 197);
+   padding: 20px 50px;
+   border-radius: 50px;
+   color: white;
+}
+
+
+#third-section{
+    padding-top: 200px;
+    background-color: black;
+    color: white;
+}
+.contact div{
+    display: flex;
+    line-height: 30px;
+}
+
+.contact i {
+    padding: 30px;
+}
+.address{
+    width: 50%;
+    text-align: justify;
+}
+#description li {
+    list-style-type: none;
+    line-height: 60px;
+
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+#socials{
+    text-align: center;
+}
+#socials i {
+    padding: 0px 12px;
+}
+#socials i:hover, a:hover {    
+    color: rgb(122, 122, 122);
+}
+button:hover {
+    transform: scale(1.3)
+}
+footer{
+    padding-left: 20px;
+}
